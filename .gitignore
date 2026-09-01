@@ -1,0 +1,25 @@
+__pycache__/
+*.py[cod]
+*.bak
+*.prompt-fix
+
+# Runtime ownership and lock files
+*.lock
+*.pid
+
+# Checkpoints and generated inference/recording artifacts
+/checkpoints/
+/backups/
+/.profile_4000_stage/
+/20260811_071021_738576644_80808/
+/first_frame_inference_*/
+/real_input_*/
+/real_input_inference_*/
+/record_request_*/
+/e6_*.png
+
+# Offline analysis utilities and legacy reviewed manifests are not part of the
+# generic live-server branch.
+/checkpoint_manifests/
+/infer_saved_robot_input*.py
+/se3_actions.py
