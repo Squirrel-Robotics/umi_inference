@@ -1,0 +1,27 @@
+__pycache__/
+*.py[cod]
+*.bak
+*.prompt-fix
+
+# Runtime logs, diagnostics, backups, and installation staging
+/backups/
+/dry_runs/
+/live_logs/
+/staging/
+/.lidar_fix_stage/
+/.profile_4000_stage/
+/.staging-*/
+/rollback_pre_async_*.sh
+
+# Runtime gates, ownership markers, and stop-generation state
+/LIVE_ENABLE
+/ARM_AUTHORITY_ACTIVE
+/STOP_GENERATION
+/STOP_GENERATION.lock
+/umi_v2_robot.pid
+/umi_v2_robot.lock
+/umi_v2_robot.locknflock
+/DRY_RUN_NEVER_ENABLE
+
+# Optional one-shot diagnostic; not part of the live robot startup closure.
+/runtime/live_input_one_shot_dry_run.py

@@ -1,0 +1,20 @@
+{
+  "schema": "umi_v2_to_current_action_basis_v1",
+  "direction": "v2_to_current",
+  "definition": "A = R_v2^T @ R_current",
+  "translation_mapping": "p_current = A^T @ p_v2",
+  "rotation_mapping": "dR_current = A^T @ dR_v2 @ A",
+  "hand_mapping": "unchanged",
+  "R_v2_from_current": {
+    "left": [
+      [0.962554, -0.250234, -0.104274],
+      [0.243264, 0.967047, -0.075121],
+      [0.119636, 0.046941, 0.991708]
+    ],
+    "right": [
+      [1.0, 0.0, 0.0],
+      [0.0, 0.988842, -0.148966],
+      [0.0, 0.148966, 0.988842]
+    ]
+  }
+}
